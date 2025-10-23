@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Dev Jones">
+    <meta name="descripition" content="Contato para Informações da PLT">
+    <title>Fale Conosco - PLT</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+    <h1>Fale Conosco</h1>
+
+        <nav aria-label="primary-navagation">
+            <ul>
+                <li> <a href="/">Home</li>
+                <li> <a href="/#sobre">Sobre <abbr title="A Pequena Loja de Taco">PLT</abbr></a></li>
+                <li> <a href="/#cardapio">Nosso Cardápio</a></li>
+                <li> <a href="/horario.html">Horário de Funcionamento</a></li>
+            </ul>
+
+            <figure>
+                <img src="img/tacos_close_up_400x260.png" alt="Tacos e Bebidas imagem" title="Nós amamos tacos" width="400" height="267">
+                <figcaption>
+                    A Pequena Loja de Tacos
+                </figcaption>
+            </figure>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <section>
+
+            <h2>Nosso Forms para Contato</h2>
+
+            <form action="http://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Envie sua Mensagem</legend>
+
+                    <p>
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" id="nome" placeholder="Pedro" autocomplete="on" required autofocus>
+                    </p>
+
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="pedro@email.com" required>
+                    </p>
+
+                    <p>
+                        <label for="mensagem">Sua Mensagem:</label>
+                        <br>
+                        <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem aqui!"></textarea>
+                    </p>
+
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Apagar</button>
+                </fieldset>
+            </form>
+
+        </section>
+
+        <section>
+            <h2>Nossa Localização</h2>
+            <address>
+                 555 Taco Temptation Lane, Suite T<br>
+                Kansas City, MO 55555-5555
+                <br><br>
+                Phone: <a href="tel:+5555555555">555-555-5555</a>
+            </address>
+        </section>
+
+    </main>
+    
+    <hr>
+
+    <footer>
+        <p>Copyright &copy; A Pequena Loja de Taco</p>
+    </footer>
+
+</body>
+</html>
